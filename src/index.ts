@@ -3,6 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { pool } from './database';
 import usersRouter from './routes/users.routes';
+import articlesRouter from './routes/articles.routes';
+import { ar } from 'zod/v4/locales';
 dotenv.config();
 
 const app = express();
@@ -12,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/users', usersRouter);
+app.use('/articles', articlesRouter);
 
 
 
