@@ -6,7 +6,8 @@
    "scripts": {
       "dev": "tsx watch src/index.ts",
       "build": "tsc",
-      "start": "node dist/index.js"
+      "start": "node dist/index.js",
+      "format": "prettier . --write"
    },
    "keywords": [],
    "author": "",
@@ -25,6 +26,7 @@
       "@types/express": "^5.0.6",
       "@types/jsonwebtoken": "^9.0.10",
       "@types/node": "^25.2.2",
+      "prettier": "^3.8.1",
       "tsx": "^4.21.0",
       "typescript": "^5.9.3"
    },
