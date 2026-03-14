@@ -36,9 +36,15 @@ Notes:
 - Make sure the MySQL database in `DB_NAME` exists.
 - Update `DB_USER` and `DB_PASSWORD` to match your local MySQL setup.
 
-### 3. Run the project
+### 3. Database
 
-Start in development mode (auto-reload):
+The database schema is included in `data/newspaper_api.sql`.
+
+Import the sql file into MySQL before you run the AP
+
+### 4. Run the project
+
+Start in development mode:
 
 ```bash
 npm run dev
@@ -56,7 +62,7 @@ Run production build:
 npm start
 ```
 
-### 4. API docs
+### 5. API docs
 
 After starting the server, open:
 
