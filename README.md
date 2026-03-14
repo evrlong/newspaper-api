@@ -1,4 +1,4 @@
-# Newspaper API
+#  Development Platforms Course Assignment - Option 1: Newspaper API 
 
 A TypeScript + Express REST API for authentication, users, and articles, backed by MySQL.
 
@@ -6,7 +6,7 @@ A TypeScript + Express REST API for authentication, users, and articles, backed 
 
 ### Prerequisites
 
-- Node.js 20+ (recommended)
+- Node.js 20+ 
 - npm
 - MySQL server
 
@@ -72,10 +72,8 @@ After starting the server, open:
 
 ## Motivation
 
-I chose **option 1** because I enjoyed working on server-side development: designing endpoints, validating data, and implementing authentication/authorization flows.
+I chose option 1, because I thought it was very interesting to learn about the server side. At the same time, I think it can be very useful to concentrate on the server side, so that you get a better insight into that part when you also have to work with the frontend. 
 
-What I liked most was the structure of the process: splitting the app into controllers, routes, repositories, and middleware made it easier to reason about responsibilities and keep the code maintainable. What I enjoyed less was repetitive setup work (environment variables, local DB configuration, and keeping schemas/types in sync).
+What I have found to be most demanding is getting a mental overview of the order of the files, e.g. when should jwt, bscript or Z be implemented. I feel like I have it handled well now, but I will probably have to do some quantity training on that part in the near future. 
 
-The most difficult part was handling secure auth end-to-end (token handling, validation, and protected routes) while also keeping error handling consistent.
-
-I think a custom API gives more control over architecture, business rules, and security decisions, which is great for learning and for projects with specific requirements. A SaaS backend like Supabase can reduce setup time and speed up delivery, but it trades some flexibility and low-level control for convenience.
+All in all, a fun and educational task, which I feel has given me a new tool in my toolbox
